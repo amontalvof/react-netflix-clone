@@ -22,8 +22,7 @@ function Navbar() {
         <div className={`nav ${show && "nav_black"}`}>
             <SiNetflix className="nav_logo" />
             <h3 className="nav_copy">
-                Copyright &copy; Andy Montalvo {new Date().getFullYear()}, all
-                rights reserved.{" "}
+                Andy Montalvo {new Date().getFullYear()}.{" "}
                 <a
                     className="iconos_Sociales"
                     href={
